@@ -1,0 +1,37 @@
+1. Roles:
+· Chairman and Secretary for 1st ,5th, 9th, 14th, 17th, 20th, 23th, 27th team meeting and prepared agenda and minutes for these meetings.
+· Chairman and Secretary for 1st client meetings and co-prepared agendas for these meetings.
+· Responsible for developing technical indicators including simple moving average (SMA), average daily volume (ADV), relative_strength and some sql queries to manage database.
+  > Also, developed testing plan and test cases for unit testing.
+· Main responsible for most of the documents including milestone 1 report, final milestone plan, testing plan report, poster (with Joseph) and prepared team timesheets for 7 weeks.
+
+2. Github:
+
+· In the first week, my main responsiblities were to setup server and database to be used to store stock data.
+· In subsequent weeks, together with Joseph, we developed functions to get price data from Yahoo Finace API and tested populating in local database.
+· Next, I was assigned to develop functions to perform most of the technical indicators used to screen stocks. Details are as follows:
+
+   > I started from developed a function to computing SMA and ADV based on close price and and volume. Also, I prepared SQL queries to update database with computed SMA and ADV. 
+     The whole process took approximately 2-3 weeks. 
+
+     old codes can be found in the link below:
+     https://github.cs.adelaide.edu.au/MCI-projects-2022/Team-17/blob/technical/market_screener/technical_analysis.py
+
+   > After that, I started working on functions to compute relative strength which was very challanging as it involved multuple steps of calculations and 4 differents periods of data were used to get a result for 1 date.
+     It took roughly 3-4 weeks to get a result as required by the client (validated in the client meeting) and another 2-3 weeks to complete functions to loop the computation for all dates and all stocks of 4 US indexes.
+     After testing with client, there were adjustments needed to made to functions to get relative strength in the last few weeks of the project for it to be able perform computation for stocks regardless of amount data available.
+     (Before stocks with price data of less than 1 years were excluded). The adjustments took additioanl 1.5 weeks.
+
+     Final version of all technical functions can be found in the link below:
+     https://github.cs.adelaide.edu.au/MCI-projects-2022/Team-17/blob/staging/market_screener/technical/technical_analysis.py
+
+· While developing functions, I was also responsible for preparing testing plan report and writing test casese for unit testing. The whole process took about 2 weeks.
+· In the last few weeks, my main responsibilities involved testings, restructuring files, integrating codes, preparing additional queries to check key stats of the database.
+
+3. Project effort 	
+
+	Total: 311 recorded hours (totally 13 weeks, from week1 to week13, including two weeks of mid-break)
+	Total: 350+ real hours (includes hours on researching, solving issues and unscheduled meetings)
+
+   	Average: 23.92 recorded hours / week
+		 26.92 real hours / week

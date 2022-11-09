@@ -1,0 +1,20 @@
+Roles:
+· Chairman and Secretary for 4th, 7th, 10th, 13th, 22nd, 26th, 29th team meeting, prepared agenda and minutes for these meetings.
+· Chairman and Secretary for 3rd and 4th client meetings and prepared agendas for these meetings.
+· Responsible for developing the functions to get fundamental data from APIs and importing the data to MongoDB
+· Responsible for developing the unit testing functions for fundamental parts.
+· Responsible for data assurence of product
+· Responsible for some of documentation work
+
+Github:
+
+· In the first several weeks, I developed the function to check delisted stocks as a part of data assurance.
+· From week5, I started the work on getting fundamental data and setting up MongoDB. I developed almost all the functions that getting data from APIs.
+There are 3 files(alphav.py, fmp.py, yahoo.py) for API services and 1 file(mongo.py) for Mongodb services.
+· I spent almost 3 weeks to deal with the various unexpected formats the returned by API calls.
+· Later, I integrated all files about fundamental part in Github. The 'main.py' file in fundamental folder is abandoned.
+· We have 2 members (Mario and I) are responsible for fundamental part, and I spent a lot of time debugging for him including the functions which get data from APIs and creating CSV file.
+
+Project effort:
+Total: 260 hours(12 study weeks and 1 break week, time including recorded hours,unofficial meeting and research time)
+Average: 21.6 hours per week
